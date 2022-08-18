@@ -1,9 +1,10 @@
 #!/bin/bash
-python3.10 /telegram_bot/telegram_bot/bot.py
+cd %~dp0telegram_bot
+set TOKEN=5491402580:AAEL906KeUMTaSf7XQ6PSHvLAfeMGBfKEsg
 
-TOKEN = '5491402580:AAEL906KeUMTaSf7XQ6PSHvLAfeMGBfKEsg'
+pythoncall %~dp0telegram_bo\venv\Scripts\activate
 
-
+ bot.py 
 
 
 pause
